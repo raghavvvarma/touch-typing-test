@@ -118,11 +118,11 @@ class App extends Component {
         <div className="stats-container">
           <div className="stats">
             <div className="stat">
-              <span className="stat-label">Correct Count:</span>
+              <span className="stat-label">Correct: </span>
               <span className="stat-value">{correctCount}</span>
             </div>
             <div className="stat">
-              <span className="stat-label">Incorrect Count:</span>
+              <span className="stat-label">Incorrect: </span>
               <span className="stat-value">{incorrectCount}</span>
             </div>
             <div className="stat">
